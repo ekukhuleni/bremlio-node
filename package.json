@@ -1,0 +1,38 @@
+{
+  "name": "bremlio",
+  "version": "0.1.0",
+  "description": "Tiny client for the Bremlio UK SMS and OTP API.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "commonjs",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "example": "node example.js"
+  },
+  "keywords": [
+    "sms",
+    "otp",
+    "2fa",
+    "uk",
+    "sms-api",
+    "bremlio"
+  ],
+  "homepage": "https://www.bremlio.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekukhuleni/bremlio-node.git"
+  },
+  "bugs": {
+    "url": "mailto:hello@bremlio.com"
+  },
+  "author": "Bremlio Ltd",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
